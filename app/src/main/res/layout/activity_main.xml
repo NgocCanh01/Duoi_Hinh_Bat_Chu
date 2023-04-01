@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/_16sdp"
+    android:paddingLeft="@dimen/_16sdp"
+    android:paddingRight="@dimen/_16sdp"
+    android:paddingTop="@dimen/_16sdp"
+    tools:context="com.example.duoihinhbatchu.MainActivity"
+    android:background="@drawable/bg_game_play">
+
+    <TextView
+        android:layout_marginTop="@dimen/_72sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="đuổi hình bắt chữ"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_40sdp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_next"
+        android:text="Play"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="@dimen/_24sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="GameVui"
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_orange_dark"/>
+</RelativeLayout>
